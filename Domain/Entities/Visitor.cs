@@ -12,7 +12,7 @@ namespace Domain.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public string Phone { get; set; }
-        public Room Room { get; set; }
+        public int RoomId { get; set; }
         public DateTime CreatedAt { get; set; }
     }
 }

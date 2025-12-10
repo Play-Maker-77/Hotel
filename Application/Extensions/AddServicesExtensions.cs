@@ -14,6 +14,7 @@ namespace Application.Extensions
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             services.AddScoped<IRoomService, RoomService>();
+            services.AddScoped<IVisitorService, VisitorServices>();
             return services;
         }
     }
